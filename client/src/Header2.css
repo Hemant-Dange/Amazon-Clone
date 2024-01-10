@@ -1,0 +1,35 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.new_nav {
+  background-color: #232f3e;
+  position: relative;
+}
+
+.new_nav .nav_data {
+  display: flex;
+  justify-content: space-between;
+}
+
+.new_nav .nav_data .left_data {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex: 1;
+}
+
+.new_nav .nav_data .left_data p {
+  color: #fff;
+  font-weight: 500;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+p:hover {
+  border: 1px solid white;
+  border-radius: 2px;
+}
